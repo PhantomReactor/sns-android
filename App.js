@@ -37,6 +37,14 @@ const App = () => {
             <Text style={styles.title}>
                 Enter a valid solana address to subscribe for notifications
             </Text>
+            <Text style={styles.title}>
+                Close the app after subscribing to receive notifications as the
+                app currently can only receive notifications when it is closed
+            </Text>
+            <Text style={styles.title}>
+                Please wait until you get a subscription success alert after
+                clicking submit
+            </Text>
             <TextInput
                 style={styles.input}
                 placeholder="Solana address"
